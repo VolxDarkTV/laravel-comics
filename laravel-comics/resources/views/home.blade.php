@@ -20,8 +20,7 @@
 {{-- HOME_CARD --}}
 @section('home_card')
     <section class="container">
-        <h1 class="mt-5">cards</h1>
-        <div class="container my_home_card_sub_container">
+        <div class="my_home_card_sub_container container">
 
             <a href="comics" class="my_home_card">
                 <img class="my_home_card" src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" >

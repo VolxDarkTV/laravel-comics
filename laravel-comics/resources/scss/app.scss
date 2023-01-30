@@ -130,6 +130,33 @@ $brand_secondary: #1688f2;
     padding: 10px;
 }
 
+// COMICS
+.my_comics_bar{
+    height: 50px;
+    background-color: $brand_primary;
+}
+.my_comics_card_sub_container{
+    left: 0;
+    // top: -250px;
+    bottom: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+// final comics part
+.my_comics_deep{
+    position: relative;
+    z-index: 80;
+}
+
+
+
 // PREFOOTER
 .my_prefooter_main_container{
     background-color: $brand_primary;
