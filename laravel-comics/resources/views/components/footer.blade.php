@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-</head>
-<body>
-
     <section class="background container-fluid">
         <section class="my_footer_container">
             <div class="my_footer_bg_logo"></div>
@@ -136,5 +126,3 @@
         </section>
     </section>
 
-</body>
-</html>

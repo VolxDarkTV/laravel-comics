@@ -8,13 +8,20 @@
     @vite('resources/js/app.js')
     
 </head>
-    
-    @include('../components/header')
 
+    {{-- HEADER --}}
+    @include('components/header')
+
+    {{-- MAIN --}}
     @yield('main')
 
-    @include('../components/prefooter')
-    @include('../components/footer')
+    {{-- PREFOOTER --}}
+    @yield('prefooter')
+
+    @yield('comics')
+
+    {{-- FOOTER --}}
+    @include('components/footer')
 
 <body>
     

@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-
-</head>
-<body>
     <section class="main_container">
         <div class="container">
             <div>
@@ -17,6 +6,10 @@
     
             <!-- Links -->
             <ul class="my_ul_header">
+                <li>
+                    <a href="home">HOME</a>
+                    <div class="under_line"></div>
+                </li>
                 <li>
                     <a href="#">CHARACTERS</a>
                     <div class="under_line"></div>
@@ -60,5 +53,3 @@
             </ul>
         </div>
     </section>
-</body>
-</html>
