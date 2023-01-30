@@ -85,6 +85,50 @@ $brand_secondary: #1688f2;
     z-index: 10;
 }
 
+// HOME_CARD
+.my_home_card_sub_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#load_more_button{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: $brand_primary;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $brand_secondary;
+        border: solid #fff 2px;
+    }
+}
+.my_home_card{
+    flex-basis: calc(100% / 6 - 20px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover{
+        background-color: $brand_primary;
+    }
+}
+.my_home_card_title{
+    text-align: start;
+    padding: 10px;
+}
 
 // PREFOOTER
 .my_prefooter_main_container{

@@ -15,6 +15,11 @@
     {{-- JUMBO --}}
     @yield('jumbo')
 
+    {{-- HOME_CARD --}}
+    @yield('home_card')
+
+
+    
     {{-- PREFOOTER --}}
     @yield('prefooter')
 
