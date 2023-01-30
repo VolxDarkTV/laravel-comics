@@ -6,7 +6,7 @@ $brand_secondary: #1688f2;
 .main_container{
     background-color: #fff;
 }
-.container{
+.my_container{
     height: 150px;
     display: flex;
     align-items: center;
@@ -56,6 +56,36 @@ $brand_secondary: #1688f2;
     }
 }
 
+
+// JUMBO
+#jumbotron{
+    position: relative;
+    height: 400px;
+    background-image: url(/resources/img/jumbotron.jpg);
+    & img{
+        object-fit: cover;
+        object-position: top;
+    }
+}
+#current_series_button{
+    position: absolute;
+    bottom: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    height: 50px;
+    background-color: $brand_primary;
+
+    & .my_current_series{
+        margin: 0;
+    }
+    // test
+    z-index: 10;
+}
+
+
 // PREFOOTER
 .my_prefooter_main_container{
     background-color: $brand_primary;
@@ -97,8 +127,10 @@ $brand_secondary: #1688f2;
     background-size: cover;
 }
 .my_footer_container{
-    max-width: 1420px;
-    margin: 0 auto;
+    & ul{
+        margin: 0;
+        padding: 0;
+    }
     
 }
 .my_footer_bg_logo{
@@ -112,7 +144,7 @@ $brand_secondary: #1688f2;
 }
 .left_side{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 50px;
     width: 50%;
 }

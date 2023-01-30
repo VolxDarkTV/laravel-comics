@@ -1,5 +1,5 @@
     <section class="main_container">
-        <div class="container">
+        <div class="my_container container">
             <div>
                 <img src="{{Vite::asset('/resources/img/dc-logo.png')}}" alt="">
             </div>
@@ -31,23 +31,23 @@
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a>COMICS</a>
+                    <a>COLLECTIBLES</a>
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a>COMICS</a>
+                    <a>VIDEOS</a>
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a>COMICS</a>
+                    <a>FANS</a>
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a>COMICS</a>
+                    <a>NEWS</a>
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a>COMICS</a>
+                    <a>SHOP</a>
                     <div class="under_line"></div>
                 </li>
             </ul>

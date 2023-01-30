@@ -6,7 +6,15 @@
 
 {{-- JUMBO --}}
 @section('jumbo')
-    <h1>JUMBO</h1>
+    <div id="jumbotron">
+            
+        <div class="container">
+            <div id="current_series_button">
+                <h2 class="my_current_series">CURRENT SERIES</h2>
+            </div>
+        </div>
+
+    </div>
 @endsection
 
 

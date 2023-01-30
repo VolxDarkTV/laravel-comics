@@ -1,5 +1,5 @@
     <section class="background container-fluid">
-        <section class="my_footer_container">
+        <section class="my_footer_container container">
             <div class="my_footer_bg_logo"></div>
     
             <div class="left_side">
