@@ -10,9 +10,10 @@
 </head>
     
     @include('../components/header')
-    
+
     @yield('main')
 
+    @include('../components/prefooter')
     @include('../components/footer')
 
 <body>

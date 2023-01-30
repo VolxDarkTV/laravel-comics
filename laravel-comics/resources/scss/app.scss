@@ -52,6 +52,36 @@ $brand_secondary: #1688f2;
     }
 }
 
+// PREFOOTER
+.my_prefooter_main_container{
+    background-color: $brand_primary;
+    position: relative;
+    z-index: 5;
+}
+.my_prefooter_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    height: 200px;
+    background-color: $brand_primary;
+}
+.my_prefooter_link{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $brand_secondary;
+        text-decoration: underline;
+    }
+}
+.my_preffoter_p{
+    color: white;
+}
 
 // FOOTER
 .background{
@@ -78,25 +108,23 @@ $brand_secondary: #1688f2;
     width: 50%;
 }
 
-// Links
-ul{
-    // gap: 30px;
+.my_ul_footer{
     list-style: none;
-    // colore testo
-    & h4{
-        margin: 20px 0;
-        font-size: 20px;
-        font-weight: 900;
+}
+.my_footer_title{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.my_footer_link{
+    text-decoration: none;
+    color: #5f7080;
+    font-size: 14px;
+    &:hover{
+        text-decoration: underline;
+        color: #7e8b97;
     }
-    & a{
-        text-decoration: none;
-        color: #5f7080;
-        font-size: 14px;
+}
 
-        &:hover{
-            text-decoration: underline;
-            color: #7e8b97;
-        }
-    }
-  }
 
