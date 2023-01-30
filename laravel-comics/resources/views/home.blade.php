@@ -4,9 +4,9 @@
     <title>Home</title>
 @endsection
 
-{{-- MAIN --}}
-@section('main')
-    <h1>hello</h1>
+{{-- JUMBO --}}
+@section('jumbo')
+    <h1>JUMBO</h1>
 @endsection
 
 

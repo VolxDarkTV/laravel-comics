@@ -12,12 +12,13 @@
     {{-- HEADER --}}
     @include('components/header')
 
-    {{-- MAIN --}}
-    @yield('main')
+    {{-- JUMBO --}}
+    @yield('jumbo')
 
     {{-- PREFOOTER --}}
     @yield('prefooter')
 
+    {{-- COMICS P --}}
     @yield('comics')
 
     {{-- FOOTER --}}
