@@ -14,11 +14,17 @@ $brand_secondary: #1688f2;
     background-color: #fff;
 
     // Links
-    & ul{
+    .my_ul_header{
         margin: 0;
         display: flex;
         gap: 30px;
         list-style: none;
+        & li{
+            cursor: pointer;
+        }
+        & li:hover{
+            color: $brand_primary;
+        }
         // effetto under-line
         .under_line{
             width: 0%;
@@ -36,9 +42,7 @@ $brand_secondary: #1688f2;
         }
         
     }
-    li{
-        cursor: pointer;
-    }
+   
 
 
     // ACTIVE CLASS
@@ -92,7 +96,12 @@ $brand_secondary: #1688f2;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.logo{
+.my_footer_container{
+    max-width: 1420px;
+    margin: 0 auto;
+    
+}
+.my_footer_bg_logo{
     position: absolute;
     right: 0px;
     top: -100px;

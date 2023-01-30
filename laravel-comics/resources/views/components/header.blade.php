@@ -16,13 +16,13 @@
             </div>
     
             <!-- Links -->
-            <ul>
+            <ul class="my_ul_header">
                 <li>
-                    <a>CHARACTERS</a>
+                    <a href="#">CHARACTERS</a>
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a>COMICS</a>
+                    <a href="comics">COMICS</a>
                     <div class="under_line"></div>
                 </li>
                 <li>

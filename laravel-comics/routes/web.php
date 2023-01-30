@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/comics', function () {
-    return view('layouts/comics');
+    return view('comics');
 });
