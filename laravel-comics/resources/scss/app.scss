@@ -52,3 +52,51 @@ $brand_secondary: #1688f2;
     }
 }
 
+
+// FOOTER
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/resources/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    right: 0px;
+    top: -100px;
+    width: 50vw;
+    height: 90vh;
+    background-image: url(/resources/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+}
+.left_side{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+}
+
+// Links
+ul{
+    // gap: 30px;
+    list-style: none;
+    // colore testo
+    & h4{
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    & a{
+        text-decoration: none;
+        color: #5f7080;
+        font-size: 14px;
+
+        &:hover{
+            text-decoration: underline;
+            color: #7e8b97;
+        }
+    }
+  }
+
