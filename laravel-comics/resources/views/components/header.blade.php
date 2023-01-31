@@ -1,4 +1,18 @@
-    <section class="main_container">
+<section class="main_container">
+        <div class="container-fluid text-light p-0">
+            <div class="bg-primary d-flex justify-content-center">
+                <ul class="my_ul_header container justify-content-end align-items-center">
+                    <li>
+                        DC POWER™ VISA®
+                    </li>
+                    <li>
+                        <select name="" id="" class="text-light btn">
+                            <option value="">ADDITIONAL DC SITES</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <nav class="my_container container">
             <div>
                 <img src="{{Vite::asset('/resources/img/dc-logo.png')}}" alt="">

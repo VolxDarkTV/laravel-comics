@@ -1,18 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 
+
 $brand_primary: #0282f9;
 $brand_secondary: #1688f2;
 // HEADER
 .main_container{
     background-color: #fff;
-}
-.my_container{
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-
     // Links
     .my_ul_header{
         margin: 0;
@@ -40,11 +33,16 @@ $brand_secondary: #1688f2;
             text-decoration: none;
             color: #5f7080;
         }
-        
+    }
+    .my_container{
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;  
+    
     }
    
-
-
     // ACTIVE CLASS
     .active{
         color: $brand_primary;
