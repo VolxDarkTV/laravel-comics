@@ -14,9 +14,9 @@
             </div>
         </div>
         <nav class="my_container container">
-            <div>
+            <a href="home">
                 <img src="{{Vite::asset('/resources/img/dc-logo.png')}}" alt="">
-            </div>
+            </a>
     
             <!-- Links -->
             <ul class="my_ul_header">
@@ -29,7 +29,7 @@
                     <div class="under_line"></div>
                 </li>
                 <li>
-                    <a href="comics">COMICS</a>
+                    <a href="#">COMICS</a>
                     <div class="under_line"></div>
                 </li>
                 <li>

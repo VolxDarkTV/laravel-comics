@@ -26,9 +26,9 @@
     </section>
 
     {{-- info comics --}}
-    <section class="container">
+    <section class="container p-0">
 
-        <div class="row mt-5">
+        <div class="row mt-5 d-flex">
 
             <div class="col-8 d-flex flex-column gap-3">
                 <h3 class="m-0">ACTION COMICS #1000: THE DELUX EDITION</h3>
@@ -54,13 +54,52 @@
                 </div>
             </div>
 
-            <div class="col-4 d-flex">
+            <div class="col-4 d-flex justify-content-end">
                 <div class="d-flex flex-column align-items-end">
                     <h6>ADVERTISEMENT</h6>
                     <img src="{{Vite::asset('/resources/img/adv.jpg')}}" alt="">
                 </div>
             </div>
+            
+        </div>
 
+        
+    </section>
+
+    <section class="my_comics_deep container-fluid bg-light">
+        <div class="container d-flex gap-3">
+            <div class="col-6">
+                <h3>Talent</h3>
+                <hr>
+                <div class="d-flex">
+                    <span class="w-100">Art By:</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis nisi accusamus voluptate labore nostrum quod aliquid, amet consequuntur maiores provident sint accusantium eum, temporibus aperiam delectus eveniet mollitia ab.</p>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <span class="w-100">Written By:</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis nisi accusamus voluptate labore nostrum quod aliquid, amet consequuntur maiores provident sint accusantium eum, temporibus aperiam delectus eveniet mollitia ab.</p>
+                </div>
+            </div>
+            
+            <div class="col-6">
+                <h3>Specs</h3>
+                <hr>
+                <div class="d-flex">
+                    <span class="w-100">Series:</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis nisi accusamus voluptate labore nostrum quod aliquid, amet consequuntur maiores provident sint accusantium eum, temporibus aperiam delectus eveniet mollitia ab.</p>
+                </div>                
+                <hr>
+                <div class="d-flex">
+                    <span class="w-50">U.S. Price:</span>
+                    <p>$19.99</p>
+                </div>                
+                <hr>
+                <div class="d-flex">
+                    <span class="w-50">On Sale Date:</span>
+                    <p>13/05/2023</p>
+                </div>
+            </div>
         </div>
     </section>
 @endsection
