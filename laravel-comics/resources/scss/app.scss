@@ -40,7 +40,18 @@ $brand_secondary: #1688f2;
         align-items: center;
         justify-content: space-between;
         background-color: #fff;  
-    
+
+        input::-webkit-input-placeholder {
+            text-align: right;
+        }
+        
+        input::-moz-placeholder {
+            text-align: right;
+        }
+         
+        input:-ms-input-placeholder {
+            text-align: right;
+        }
     }
    
     // ACTIVE CLASS

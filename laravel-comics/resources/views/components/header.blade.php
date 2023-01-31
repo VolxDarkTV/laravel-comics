@@ -2,7 +2,7 @@
         <div class="container-fluid text-light p-0">
             <div class="bg-primary d-flex justify-content-center">
                 <ul class="my_ul_header container justify-content-end align-items-center">
-                    <li>
+                    <li class="text-light">
                         DC POWER™ VISA®
                     </li>
                     <li>
@@ -65,5 +65,8 @@
                     <div class="under_line"></div>
                 </li>
             </ul>
+
+            <input id="search" class="ms-3 text-dark" type="text" placeholder="Search">
+            <label for="search">Search</label>
         </nav>
     </section>
