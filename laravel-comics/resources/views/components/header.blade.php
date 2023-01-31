@@ -67,6 +67,5 @@
             </ul>
 
             <input id="search" class="ms-3 text-dark" type="text" placeholder="Search">
-            <label for="search">Search</label>
         </nav>
     </section>
