@@ -1,5 +1,5 @@
     <section class="main_container">
-        <div class="my_container container">
+        <nav class="my_container container">
             <div>
                 <img src="{{Vite::asset('/resources/img/dc-logo.png')}}" alt="">
             </div>
@@ -51,5 +51,5 @@
                     <div class="under_line"></div>
                 </li>
             </ul>
-        </div>
+        </nav>
     </section>

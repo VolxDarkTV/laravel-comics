@@ -32,6 +32,7 @@
 
             <div class="col-8 mt-5">
                 <h3>ACTION COMICS #1000: THE DELUX EDITION</h3>
+
             </div>
 
             <div class="col-4 d-flex">
