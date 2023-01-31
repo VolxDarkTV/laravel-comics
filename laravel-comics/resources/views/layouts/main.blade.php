@@ -7,29 +7,33 @@
     @yield('head')
     @vite('resources/js/app.js')
     
+    
 </head>
 
-    {{-- HEADER --}}
-    @include('components/header')
-
-    {{-- JUMBO --}}
-    @yield('jumbo')
-
-    {{-- HOME_CARD --}}
-    @yield('home_card')
-
-
-    
-    {{-- PREFOOTER --}}
-    @yield('prefooter')
-
-    {{-- COMICS P --}}
-    @yield('comics')
-
-    {{-- FOOTER --}}
-    @include('components/footer')
 
 <body>
     
+    {{-- HEADER --}}
+    @include('components/header')
+    
+    {{-- JUMBO --}}
+    @yield('jumbo')
+    
+    {{-- HOME_CARD --}}
+    @yield('home_card')
+    
+    
+    
+    {{-- PREFOOTER --}}
+    @yield('prefooter')
+    
+    {{-- COMICS P --}}
+    @yield('comics')
+    
+    {{-- FOOTER --}}
+    @include('components/footer')
+    
+    
 </body>
 </html>
+
